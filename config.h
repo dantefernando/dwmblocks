@@ -13,14 +13,14 @@ static const Block blocks[] = {
 	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
 	/* {"",	"sb-torrent",	20,	7}, */
-	{"",	"sb-memory",	10,	14},
-	{"",	"sb-cpu",		10,	18},
+	{"",	"~/.local/bin/statusbar/sb-memory",	10,	14},
+	{"",	"~/.local/bin/statusbar/sb-cpu",		10,	18},
 	/* {"",	"sb-moonphase",	18000,	17}, */
-	{"",	"sb-nettraf",	1,	16},
-	{"",	"sb-volume",	0,	10},
-	{"",	"sb-battery",	5,	3},
-	{"",	"sb-internet",	5,	4},
-	{"",	"sb-clock",	60,	1},
+	{"",	"~/.local/bin/statusbar/sb-nettraf",	1,	16},
+	{"",	"~/.local/bin/statusbar/sb-volume",	0,	10},
+	{"",	"~/.local/bin/statusbar/sb-battery",	5,	3},
+	{"",	"~/.local/bin/statusbar/sb-internet",	5,	4},
+	{"",	"~/.local/bin/statusbar/sb-clock",	60,	1},
 	/* {"",	"sb-help-icon",	0,	15}, */
 };
 
@@ -33,4 +33,4 @@ static char *delim = "   |   ";
 // autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
 
 
-// autocmd BufWritePost ~/.suckless/dwmblocks/config.h !cd ~/suckless/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
+// autocmd BufWritePost ~/suckless/dwmblocks/config.h !cd ~/suckless/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
