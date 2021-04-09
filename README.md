@@ -1,7 +1,7 @@
 # dwmblocks
 
 
-**FORKED FROM [LukeSmith's Build of dwm](https://github.com/lukesmithxyz/dwm)**
+**FORKED FROM [LukeSmith's Build of dwmblocks](https://github.com/lukesmithxyz/dwmblocks)**
 
 
 Modular status bar for dwm written in c.
