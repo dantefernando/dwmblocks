@@ -1,6 +1,6 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
-	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+	/*Icon*/	/*Command*/		    /*Update Interval*/	    /*Update Signal*/
 	/* {"", "cat /tmp/recordingicon 2>/dev/null",	0,	9}, */
 	/* {"",	"sb-tasks",	10,	26}, */
 	/* {"",	"sb-music",	0,	11}, */
@@ -13,14 +13,17 @@ static const Block blocks[] = {
 	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
 	/* {"",	"sb-torrent",	20,	7}, */
-	{"",	"~/.local/bin/statusbar/sb-memory",	10,	14},
-	{"",	"~/.local/bin/statusbar/sb-cpu",		10,	18},
 	/* {"",	"sb-moonphase",	18000,	17}, */
-	{"",	"~/.local/bin/statusbar/sb-nettraf",	1,	16},
-	{"",	"~/.local/bin/statusbar/sb-volume",	0,	10},
-	{"",	"~/.local/bin/statusbar/sb-battery",	5,	3},
-	{"",	"~/.local/bin/statusbar/sb-internet",	5,	4},
-	{"",	"~/.local/bin/statusbar/sb-clock",	60,	1},
+
+	{"",	"~/.local/bin/statusbar/sb-memory",	    10,	    14},
+	{"",	"~/.local/bin/statusbar/sb-cpu",		10,	    18},
+	{"",	"~/.local/bin/statusbar/sb-nettraf",	1,	    16},
+	{"",	"~/.local/bin/statusbar/sb-volume",	    0,	    10},
+	{"",	"~/.local/bin/statusbar/sb-backlight",	0,	    10},
+	{"",	"~/.local/bin/statusbar/sb-battery",	5,	    3},
+	{"",	"~/.local/bin/statusbar/sb-internet",	5,	    4},
+	{"",	"~/.local/bin/statusbar/sb-clock",	    60,	    1},
+
 	/* {"",	"sb-help-icon",	0,	15}, */
 };
 
