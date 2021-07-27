@@ -15,6 +15,7 @@ static const Block blocks[] = {
 	/* {"",	"sb-torrent",	20,	7}, */
 	/* {"",	"sb-moonphase",	18000,	17}, */
 
+	{"",	"~/.local/bin/statusbar/sb-spotify",	10,	    15},
 	{"",	"~/.local/bin/statusbar/sb-memory",	    10,	    14},
 	{"",	"~/.local/bin/statusbar/sb-cpu",		10,	    18},
 	{"",	"~/.local/bin/statusbar/sb-nettraf",	5,	    16},
