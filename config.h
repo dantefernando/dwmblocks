@@ -1,6 +1,8 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
-	/*Icon*/	/*Command*/		    /*Update Interval*/	    /*Update Signal*/
+	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+
+	/* {"⌨", "sb-kbselect", 0, 30}, */
 	/* {"", "cat /tmp/recordingicon 2>/dev/null",	0,	9}, */
 	/* {"",	"sb-tasks",	10,	26}, */
 	/* {"",	"sb-music",	0,	11}, */
@@ -11,19 +13,23 @@ static const Block blocks[] = {
 	/* {"",	"sb-price link \"Chainlink\" 🔗",			300,	25}, */
 	/* {"",	"sb-price xmr \"Monero\" 🔒",			9000,	24}, */
 	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
+	/* {"",	"sb-mailbox",	180,	12}, */
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
 	/* {"",	"sb-torrent",	20,	7}, */
+	/* {"",	"sb-memory",	10,	14}, */
+	/* {"",	"sb-cpu",		10,	18}, */
 	/* {"",	"sb-moonphase",	18000,	17}, */
+	/* {"",	"sb-forecast",	18000,	5}, */
 
-	{"",	"~/.local/bin/statusbar/sb-spotify",	10,	    15},
-	{"",	"~/.local/bin/statusbar/sb-memory",	    10,	    14},
-	{"",	"~/.local/bin/statusbar/sb-cpu",		10,	    18},
-	{"",	"~/.local/bin/statusbar/sb-nettraf",	5,	    16},
-	{"",	"~/.local/bin/statusbar/sb-volume",	    0,	    10},
-	{"",	"~/.local/bin/statusbar/sb-backlight",	0,	    10},
-	{"",	"~/.local/bin/statusbar/sb-battery",	5,	    3},
-	{"",	"~/.local/bin/statusbar/sb-internet",	5,	    4},
-	{"",	"~/.local/bin/statusbar/sb-clock",	    60,	    1},
+	{"",	"sb-spotify",	10,	    15},
+	{"",	"sb-memory",	10,	    14},
+	{"",	"sb-cpu",		10,	    18},
+	{"",	"sb-nettraf",	5,	    16},
+	{"",	"sb-volume",	0,	    10},
+	{"",	"sb-backlight",	0,	    9},
+	{"",	"sb-battery",	5,	    3},
+	{"",	"sb-internet",	5,	    4},
+	{"",	"sb-clock",	    60,	    1}
 
 	/* {"",	"sb-help-icon",	0,	15}, */
 };
@@ -35,6 +41,3 @@ static char *delim = "   |   ";
 // vim with the following line in your vimrc/init.vim:
 
 // autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
-
-
-// autocmd BufWritePost ~/suckless/dwmblocks/config.h !cd ~/suckless/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
