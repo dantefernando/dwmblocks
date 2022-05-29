@@ -22,6 +22,7 @@ static const Block blocks[] = {
 	/* {"",	"sb-forecast",	18000,	5}, */
 
 	{"",	"sb-spotify",	10,	    15},
+	{"",	"sb-weather",	120,    5},
 	{"",	"sb-memory",	10,	    14},
 	{"",	"sb-cpu",		10,	    18},
 	{"",	"sb-nettraf",	5,	    16},
