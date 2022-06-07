@@ -24,11 +24,12 @@ static const Block blocks[] = {
 
 	{"",	"sb-spotify",	10,	    15},
 	{"",	"sb-barrier",	10,	    19},
-	{"",	"sb-weather",	120,    5},
+	/* {"",	"sb-weather",	120,    5}, */
 	{"",	"sb-memory",	10,	    14},
 	{"",	"sb-cpu",		10,	    18},
 	{"",	"sb-nettraf",	5,	    16},
 	{"",	"sb-volume",	0,	    10},
+	{"",	"sb-airpods",	60,     5},
 	{"",	"sb-backlight",	0,	    9},
 	{"",	"sb-battery",	5,	    3},
 	{"",	"sb-internet",	5,	    4},
