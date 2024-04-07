@@ -29,7 +29,7 @@ static const Block blocks[] = {
 	{"",	"sb-cpu",		10,	    18},
 	{"",	"sb-nettraf",	5,	    16},
 	{"",	"sb-volume",	0,	    10},
-	{"",	"sb-airpods",	60,     5},
+	/* {"",	"sb-airpods",	60,     5}, */
 	{"",	"sb-backlight",	0,	    9},
 	{"",	"sb-battery",	5,	    3},
 	{"",	"sb-internet",	5,	    4},
